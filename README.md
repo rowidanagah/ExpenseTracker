@@ -2,19 +2,17 @@
 
 A Console App for an expense tracking along with multiple interfaces.
 
-* Python application
+* A User friendly Python Console application
 
-* Command Line Application but the things are well managed
-
-* User friendly
-
-* Shows detail view of your expenses and also how much money you saved or how much is extra.
+* Shows detail view of your expenses and how much money you saved or how much is extra.
 
 * You can update and delete your expenses
 
 * You can insert new expenses
 
 * Uses database
+
+* Save your records or logging into your local directory.
 
 
 ### Initial Setup:
