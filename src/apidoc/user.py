@@ -1,4 +1,4 @@
-
+import os
 class UserFolderSetup:
 	""" It's a more general repo to magage folder
 	 folder path & structure per user 

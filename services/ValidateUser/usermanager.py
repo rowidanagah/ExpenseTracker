@@ -46,3 +46,6 @@ class User:
 			self.setup.update_user(res,dst)
 		except:
 			print("UserName already exists")
+
+user = User()
+print(user.check_user_history("dana"))
