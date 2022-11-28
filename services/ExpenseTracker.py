@@ -16,12 +16,12 @@ class ExpenseTracker:
 		+ "/{}/".format(user_name) 
 
 	def add_balance(self,expense):
-		## add new balance into current balance file hostory
+		# add new balance into current balance file hostory
 		self.cost.new_balance(self.DIR_PATH,expense)
 
 	def add_daily_expense(self,expense,file_name = ''):
-		""" add & append new expense intothe default `daily_expense` file 
-		unless there's a spesified file """
+		""" add & append new expense into the default
+		 `daily_expense` file unless there's a spesified file """
 		dst = file_name if file_name else "daily_expense.txt"
 		self.cost.append_expense_to_new_file(self.DIR_PATH+dst, expense)
 
@@ -29,7 +29,7 @@ class ExpenseTracker:
 		"""Read all the current balance"""
 		balance = self.cost.current_balance_in_another_file(self.DIR_PATH,"total_balance.txt")
 		res =  sum(list(map(int, balance)))
-		print("your total balance fo far is :- ",res)
+		print("your total balance fo far is :- ", res)
 		return res 
 
 	def sum_up_your_daily_expense(self):

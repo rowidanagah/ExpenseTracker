@@ -1,6 +1,7 @@
 import os
+
 class UserFolderSetup:
-	""" It's a more general repo to magage folder
+	""" It's a more general repo to magage 
 	 folder path & structure per user 
 	"""
 	def check_init(self):
